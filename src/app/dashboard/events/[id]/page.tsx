@@ -138,7 +138,7 @@ export default function Page(params: { id: string }) {
 
 		const prompt = `You are an ${currEvent?.eventType.toLowerCase()} assistant. I want you to help me prepare for an upcoming ${currEvent?.eventType.toLowerCase()} event with ${
 			currEvent?.company
-		}. I need you to be as honest and subjective as possible to help me. I want you to rate this content I have prepared from 0 to 100 based on performance, clarity, passion and persuasiveness. The content is below. Return the number value as format Score: . The explanation why the score was given and how to improve, max five sentences with no new lines and returned as plain text as Analysis: . \n
+		}. I need you to be as honest and subjective as possible to help me. I want you to rate this content I have prepared from 0 to 100 based on performance, clarity, passion and persuasiveness. The content is below. Return the number value as format Score: . The explanation why the score was given and how to improve, I want one paragraph max five sentences with no new lines and returned as plain text as Analysis: . \n
 		Content: ${transcript}
 		`;
 
