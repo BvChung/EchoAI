@@ -51,6 +51,8 @@ export default function Page() {
 			toast.error("Error creating event");
 		}
 
+		setEventDate({ startDate: null, endDate: null });
+
 		if (formRef) {
 			formRef.reset();
 		}
@@ -95,6 +97,7 @@ export default function Page() {
 										inputClassName="bg-inputBG w-full max-w-3xl rounded-md py-1.5 px-3 border border-inputBorder placeholder:text-gray-400 focus:ring-1 focus:outline-none focus:ring-inputHover sm:text-sm sm:leading-6 transition-colors text-neutral-100"
 										value={eventDate}
 										onChange={handleDateChange}
+										popoverDirection="down"
 									/>
 								</div>
 							</div>
