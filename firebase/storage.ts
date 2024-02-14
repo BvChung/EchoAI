@@ -1,7 +1,7 @@
 import { ref, getDownloadURL, uploadBytes } from "firebase/storage";
 import { storage } from "./firebase";
 
-export const BUCKET_URL = "gs://hackathon-531b7.appspot.com";
+export const BUCKET_URL = process.env.NEXT_PUBLIC_CLOUD_BUCKET_URL;
 
 export async function uploadFile(file: File, uid: string) {
 	const fileType = file.name.substring(file.name.lastIndexOf("."));
