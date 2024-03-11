@@ -23,4 +23,4 @@ Proud of being able to figure out how to incorporate these technologies in a sma
 In such a small time period, a balance has to be made in developing both a good user interface and functioning backend with AI and cloud technologies.
 
 ## What's next for EchoAI
-Ability to compare / contrast recordings to determine what individuals did well on, ability to asynchronously que up recordings to be transcribed, and incorporating NLP (natural language processing) to detect emotion with focus on helping individuals produce more passionate forms of speaking.
+Ability to compare / contrast recordings to determine what individuals did well on and ability to asynchronously que up recordings to be transcribed.
